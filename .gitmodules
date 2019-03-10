@@ -1,0 +1,7 @@
+[submodule "themes/xmag"]
+	path = themes/xmag
+	url = https://github.com/yihui/hugo-xmag.git
+[submodule "public"]
+	path = public
+	url = https://github.com/monerorus/monerorus.github.io.git
+	branch = master

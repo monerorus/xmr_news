@@ -1,0 +1,35 @@
+baseURL = "http://a.grelf.ru/"
+languageCode = "ru"
+title = "Monero News"
+theme = "xmag"
+preserveTaxonomyNames = true
+footnotereturnlinkcontents = "↩"
+paginate = 6
+publishDir = "public"
+
+[params.text]
+    back = "&larr; На главную"
+    edit = "Edit this page &rarr;"
+    truncated = "&hellip;"
+    
+[[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+[[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 2
+[[menu.main]]
+    name = "Categories"
+    url = "/categories/"
+    weight = 3
+    
+[params]
+    description = "Новости из мира Monero"
+    summary_length = 300
+    footer = "&copy; [MoneroRus]() 2019 | [Github](https://github.com/) | [Twitter](https://twitter.com/)"
+    
+[imaging]
+quality = 100
+anchor = "smart"
