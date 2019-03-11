@@ -11,6 +11,7 @@ publishDir = "public"
     back = "&larr; На главную"
     edit = "Edit this page &rarr;"
     truncated = "&hellip;"
+    uncategorized = "без категории"
     
 [[menu.main]]
     name = "Home"
@@ -21,7 +22,7 @@ publishDir = "public"
     url = "/about/"
     weight = 2
 [[menu.main]]
-    name = "Categories"
+    name = "Категории"
     url = "/categories/"
     weight = 3
     
