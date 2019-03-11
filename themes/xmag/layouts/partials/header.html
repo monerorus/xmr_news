@@ -12,7 +12,10 @@
 
   <body{{if .IsPage}} class="page"{{ end }}>
     <nav class="header">
-      {{ partial "banner.html" . }}
+      {{ if .IsPage }}
+      {{else}}
+        {{ partial "banner.html" . }}
+      {{end}}
       <div class="head-meta">
       {{ if .IsPage }}
         <span><a href="{{ relURL .Site.BaseURL }}">{{ (default "Back to Home" .Site.Params.text.back) | safeHTML }}</a></span>

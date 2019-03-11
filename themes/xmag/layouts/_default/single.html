@@ -29,7 +29,9 @@
 
 <main>
 {{ with .Params.thumbnail }}
+<center>
 <img alt=cover src=/{{ . }} />
+</center>
 {{end}}
 {{ .Content }}
 </main>
