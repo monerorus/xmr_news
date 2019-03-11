@@ -14,7 +14,7 @@ publishDir = "public"
     uncategorized = "без категории"
     
 [[menu.main]]
-    name = "Home"
+    name = "Главная"
     url = "/"
     weight = 1
 [[menu.main]]
@@ -29,7 +29,7 @@ publishDir = "public"
 [params]
     description = "Новости из мира Monero"
     summary_length = 300
-    footer = "&copy; [MoneroRus]() 2019 | [Github](https://github.com/) | [Twitter](https://twitter.com/)"
+    footer = "&copy; MoneroRus 2019 | [Github](https://github.com/monerorrus/xmr_newa) | [XMR.RU](https://xmr.ru)"
     
 [imaging]
 quality = 100
