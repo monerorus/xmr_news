@@ -1,4 +1,4 @@
-baseURL = "news.xmr.ru"
+baseURL = "http://news.xmr.ru"
 languageCode = "ru"
 title = "Monero News"
 theme = "xmag"
@@ -29,7 +29,7 @@ publishDir = "public"
 [params]
     description = "Новости из мира Monero"
     summary_length = 300
-    footer = "&copy; MoneroRus 2019 | [Github](https://github.com/monerorrus/xmr_newa) | [XMR.RU](https://xmr.ru)"
+    footer = "&copy; MoneroRus 2019 | [Github](https://github.com/monerorrus/xmr_news) | [XMR.RU](https://xmr.ru)"
     
 [imaging]
 quality = 100
