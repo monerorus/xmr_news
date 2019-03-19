@@ -1,4 +1,4 @@
-baseURL = "http://a.grelf.ru/"
+baseURL = "news.xmr.ru"
 languageCode = "ru"
 title = "Monero News"
 theme = "xmag"
