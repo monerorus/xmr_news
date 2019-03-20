@@ -36,7 +36,7 @@
         <span>{{ $.Scratch.Get "Description" }}Новости из мира Monero</span>
         <span>{{ now.Format "2006-01-02" }}</span>
         {{ $paginator := .Paginate (where .Data.Pages "Section" "!=" "") }}
-        <span>страница: {{ with $paginator }}{{ if .TotalPages }}{{ .PageNumber }} из  {{ .TotalPages }}{{ end }}{{ end }}</span>
+        <span>{{ with $paginator }}{{ if .TotalPages }}{{ .PageNumber }}/{{ .TotalPages }}{{ end }}{{ end }}</span>
       {{ end }}
       </div>
     </nav>
