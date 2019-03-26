@@ -92,6 +92,9 @@ nav { display:block; }
   cursor: pointer;
 }
 
+.page-item {
+  text-decoration: none;
+}
 .page-item:first-child .page-link {
   margin-left: 0;
   border-top-left-radius: 0.25rem;
