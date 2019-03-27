@@ -7,6 +7,9 @@ footnotereturnlinkcontents = "↩"
 paginate = 6
 publishDir = "public"
 
+[author]
+    name = "Monerorus and XMR.RU team"
+    
 [params.text]
     back = "&larr; На главную"
     edit = "Edit this page &rarr;"
