@@ -92,7 +92,7 @@ nav { display:block; }
   cursor: pointer;
 }
 
-.page-item a {
+.page-item a, .nav-next a, .nav-prev a, .summary a {
   text-decoration: none;
 }
 .page-item:first-child .page-link {
