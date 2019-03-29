@@ -7,6 +7,7 @@ footnotereturnlinkcontents = "↩"
 paginate = 6
 publishDir = "public"
 rssLimit = 20
+enableRobotsTXT  = true
 
 [author]
     name = "Monerorus and XMR.RU team"
