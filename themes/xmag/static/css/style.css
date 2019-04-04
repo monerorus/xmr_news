@@ -54,7 +54,7 @@ main { margin-bottom: 15px; }
   .list section { max-width: calc(50% - 15px); }
   .article-list h1 {
     overflow-x: hidden;
-    white-space: nowrap;
+    #white-space: nowrap;
     text-overflow: ellipsis;
   }
   .article-list h1:hover { white-space: inherit; }
