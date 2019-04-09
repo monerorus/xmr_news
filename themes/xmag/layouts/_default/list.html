@@ -8,7 +8,7 @@
   <div class="categories">
   {{ with .Params.categories }}
   {{ range first 2 . }}
-    |<a href="{{ relURL (print "/categories/" . | urlize) }}">{{ . }}</a>|
+     <!-- |<a href="{{ relURL (print "/categories/" . | urlize) }}">{{ . }}</a>| -->
   {{ end }}
   {{ else }}
     <a>{{ default "Uncategorized" .Site.Params.text.uncategorized }}</a>

@@ -5,6 +5,9 @@ div .summary a, article main{
 img .cover {
   max-height: 100px;
 }
+.date-author {
+  text-align: right;
+}
 
 .post-nav {
   font-family: "Roboto Slab",Georgia,serif;

@@ -53,8 +53,9 @@ main { margin-bottom: 15px; }
 @media (min-width: 715px) {
   .list section { max-width: calc(50% - 15px); }
   .article-list h1 {
-    overflow-x: hidden;
-    white-space: nowrap;
+    overflow: hidden;
+    /* white-space: nowrap; */
+    height: 2.5em;
     text-overflow: ellipsis;
   }
   .article-list h1:hover { white-space: inherit; }
@@ -143,8 +144,8 @@ tr:nth-child(even) { background: #eee }
 
 .thumbnail {
   height: 5.1em;
-  width: 6.8em;
-  float: left;
+  /* width: 6.8em;
+  float: left; */
   overflow: hidden;
   margin: 5px 8px 5px 0;
   box-shadow: 0 0 8px #666;
