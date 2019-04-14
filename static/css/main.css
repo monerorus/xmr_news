@@ -1,3 +1,6 @@
+@font-face{font-family:"Font Awesome 5 Brands";font-style:normal;font-weight:normal;font-display:auto;src:url(/webfonts/fa-brands-400.eot);src:url(/webfonts/fa-brands-400.eot?#iefix) format("embedded-opentype"),url(/webfonts/fa-brands-400.woff2) format("woff2"),url(/webfonts/fa-brands-400.woff) format("woff"),url(/webfonts/fa-brands-400.ttf) format("truetype"),url(/webfonts/fa-brands-400.svg#fontawesome) format("svg")}.fab{font-family:"Font Awesome 5 Brands"}
+
+
 div .summary a, article main{
     color: rgb(76, 76, 76);
 }
@@ -36,7 +39,80 @@ img .cover {
     padding-right: 21px;
 }
 
-## COPY boostrap styles for pagination
+/* SHARE BUTTONS STYLE */
+
+.share-buttons a{
+  text-decoration: none;
+} 
+.share-buttons{
+	max-width: 300px;
+  margin:0 auto;
+}
+.share-block{
+  display: inline-block;
+	background: #fff;
+	width: 30px;
+	height: 30px;
+	margin-bottom: 16px;
+	border: 1px solid #ccc;
+	text-align: center;
+	transition: 0.5s;
+}
+.share-block:hover{
+	animation: share-animation 0.82s cubic-bezier(.36,.07,.19,.97) both;
+	border-color: #0c7fd7;
+}
+
+.share-block i{
+	font-size: 18px;
+	position: relative;
+	top: 5px;
+}
+.share-block span{
+	display: block;
+	position: relative;
+	top: -9px;
+	font-size: 12px;
+	line-height: 1;
+}
+.share-buttons .facebook{
+	color: #3b5998;
+}
+.share-buttons .vk{
+	color: #5E82A8;
+}
+.share-buttons  .linkedin{
+	color: #0976b4;
+}
+.share-buttons .reddit{
+	color: #cc2127;
+}
+.share-buttons .google{
+	color: #d73925;
+}
+.share-buttons .twitter{
+	color: #55acee;
+}
+
+@keyframes share-animation {
+	10%, 90% {
+		transform: translate3d(-1px, 0, 0);
+	}
+
+	20%, 80% {
+		transform: translate3d(2px, 0, 0);
+	}
+
+	30%, 50%, 70% {
+		transform: translate3d(-4px, 0, 0);
+	}
+
+	40%, 60% {
+		transform: translate3d(4px, 0, 0);
+	}
+}
+
+/* COPY boostrap styles for pagination */
 nav { display:block; }
 .pagination{margin-top:.5rem;margin-bottom:.5rem}
 .pagination {

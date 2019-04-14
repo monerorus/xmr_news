@@ -1,0 +1,32 @@
+<div class="share-buttons">
+  <a class="share-btn-fb" href="http://www.facebook.com/sharer/sharer.php?s=100&p[title]={{.Title}}&p[summary]={{.Summary}}&p[url]={{.Permalink}}&p[images][0]={{.Params.thumbnail | absURL }}" target="_blank" onclick="return Share.me(this);">
+    <div class="facebook share-block">
+      <i class="fab fa-facebook" aria-hidden="true"></i>
+    </div>
+  </a>
+  <a class="share-btn-g+" href="https://plus.google.com/share?url={{.Permalink}}" target="_blank" onclick="return Share.me(this);">
+    <div class="google share-block">
+      <i class="fab fa-google-plus" aria-hidden="true"></i>
+    </div>
+  </a>
+  <a class="share-btn-in" href="https://www.linkedin.com/cws/share?url={{.Permalink}}" target="_blank" onclick="return Share.me(this);">
+    <div class="linkedin share-block">
+      <i class="fab fa-linkedin" aria-hidden="true"></i>
+    </div>
+  </a>
+  <a class="share-btn-rd" href="http://www.reddit.com/submit?url={{.Permalink}}" target="_blank" onclick="return Share.me(this);">
+    <div class="reddit share-block">
+      <i class="fab fa-reddit" aria-hidden="true"></i>
+    </div>
+  </a>
+  <a class="share-btn-vk" href="https://vk.com/share.php?url={{.Permalink}}" target="_blank" onclick="return Share.me(this);">
+    <div class="vk share-block">
+      <i class="fab fa-vk" aria-hidden="true"></i>
+    </div>
+  </a>
+  <a class="share-btn-tw" href="https://twitter.com/intent/tweet?original_referer=http://fiddle.jshell.net/_display/&text={{.Title}}&url={{.Permalink}}" target="_blank" onclick="return Share.me(this)">
+    <div class="twitter share-block">
+      <i class="fab fa-twitter" aria-hidden="true"></i>
+    </div>
+  </a>
+</div>
